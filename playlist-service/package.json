@@ -1,0 +1,17 @@
+{
+  "name": "playlist-service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run playlist-service.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bun": "^0.1.1",
+    "kafkajs": "^1.15.0",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}

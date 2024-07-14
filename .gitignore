@@ -1,0 +1,106 @@
+# Node modules
+node_modules/
+*.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build directories
+build/
+dist/
+lib/
+coverage/
+.cache/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Production
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+.kube/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# MacOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Bun cache
+.bun/
+
+# Generated files
+frontend/build/
+frontend/dist/
+frontend/public/
+frontend/node_modules/
+frontend/.cache/
+frontend/.temp/
+
+api-gateway/dist/
+api-gateway/node_modules/
+api-gateway/.cache/
+api-gateway/.temp/
+
+auth-service/dist/
+auth-service/node_modules/
+auth-service/.cache/
+auth-service/.temp/
+
+playlist-service/dist/
+playlist-service/node_modules/
+playlist-service/.cache/
+playlist-service/.temp/
+
+search-service/dist/
+search-service/node_modules/
+search-service/.cache/
+search-service/.temp/
+
+player-service/dist/
+player-service/node_modules/
+player-service/.cache/
+player-service/.temp/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/.terraform.lock.hcl
+
+# Monitoring
+infra/monitoring/grafana/data/
+infra/monitoring/prometheus/data/
