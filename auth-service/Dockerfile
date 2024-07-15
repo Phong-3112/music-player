@@ -1,7 +1,8 @@
 FROM node:22-alpine3.20
 WORKDIR /app
-COPY package.json ./
+COPY package.json tsconfig.json ./
 RUN npm install
 COPY . .
+RUN npx tsc
 EXPOSE 3001
-CMD ["bun", "run", "src/auth-service.ts"]
+CMD ["node", "dist/auth-service.js"]
